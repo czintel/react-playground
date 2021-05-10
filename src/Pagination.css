@@ -1,0 +1,6 @@
+.Pagination {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  margin: 20px;
+}
