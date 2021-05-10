@@ -4,10 +4,10 @@ import './Card.css'
 export default ({ Heading, Text, isSelected }) => {
   return (
     <section className="Card">
-      <h2 className="CardHeading">{Heading}</h2>
-      <p className="CardText">{Text}</p>
+      <h2 className="Card__Heading">{Heading}</h2>
+      <p className="Card__Text">{Text}</p>
       <div
-        className={isSelected ? 'CardBookmark selected' : 'CardBookmark'}
+        className={isSelected ? 'Card__Bookmark selected' : 'Card__Bookmark'}
       ></div>
     </section>
   )

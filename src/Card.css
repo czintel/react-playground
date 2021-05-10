@@ -10,15 +10,15 @@
   text-align: left;
 }
 
-.CardHeading {
+.Card__Heading {
   font-weight: bolder;
 }
 
-.CardText {
+.Card__Text {
   font-weight: lighter;
 }
 
-.CardBookmark {
+.Card__Bookmark {
   position: absolute;
   height: 50px;
   width: 30px;
@@ -29,6 +29,6 @@
   border-color: black;
 }
 
-.CardBookmark.selected {
+.Card__Bookmark.selected {
   background-color: hotpink;
 }
