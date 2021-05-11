@@ -47,3 +47,18 @@
 .Card__Answer--hidden {
   display: none;
 }
+
+.Card__TagList {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Card__TagList--Item {
+  background-color: lightblue;
+  padding: 3px 5px;
+  color: aliceblue;
+  border-radius: 5px;
+}
