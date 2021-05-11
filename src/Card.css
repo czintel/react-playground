@@ -1,5 +1,5 @@
 .Card {
-  margin: 0 20px;
+  margin: 0 auto;
   width: 350px;
   height: auto;
   padding: 20px;
@@ -7,7 +7,6 @@
   border-color: black;
   font-family: sans-serif;
   position: relative;
-  text-align: left;
 }
 
 .Card__Heading {
