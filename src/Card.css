@@ -9,12 +9,20 @@
   position: relative;
 }
 
-.Card__Heading {
+.Card__Title {
   font-weight: bolder;
 }
 
 .Card__Text {
   font-weight: lighter;
+}
+
+.Card__Question {
+  font-weight: 400;
+}
+
+.Card__Answer {
+  font-weight: bolder;
 }
 
 .Card__Bookmark {
@@ -28,6 +36,14 @@
   border-color: black;
 }
 
-.Card__Bookmark.selected {
+.Card__Bookmark--selected {
   background-color: hotpink;
+}
+
+.Card__Answer {
+  display: block;
+}
+
+.Card__Answer--hidden {
+  display: none;
 }
