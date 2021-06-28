@@ -1,0 +1,33 @@
+.Card {
+  margin: 0 auto;
+  width: 350px;
+  height: auto;
+  padding: 20px;
+  border: solid;
+  border-color: black;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.Card__Heading {
+  font-weight: bolder;
+}
+
+.Card__Text {
+  font-weight: lighter;
+}
+
+.Card__Bookmark {
+  position: absolute;
+  height: 50px;
+  width: 30px;
+  top: -15px;
+  right: 30px;
+  background-color: lightgray;
+  border: solid;
+  border-color: black;
+}
+
+.Card__Bookmark.selected {
+  background-color: hotpink;
+}
